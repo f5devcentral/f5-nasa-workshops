@@ -59,13 +59,13 @@ Now let's protect our **AI Agent** against this type of attack.
       **exists**                        enabled
       ==============================    ========================================================================================
  
-15. Go back to the **Host Config** ⇒ in the **Request extractors** add the **MCP tools definition** pattern rule ⇒ **Save changes**
+7. Go back to the **Host Config** ⇒ in the **Request extractors** add the **MCP tools definition** pattern rule ⇒ **Save changes**
 
-16. Go back to the **AI Agent**, start a new conversation, and say hi again.
+8. Go back to the **AI Agent**, start a new conversation, and say hi again.
 
-17. Go to the F5 AI Guardrails logs and observe the logs. You will see that the prompt has been blocked due to the prompt injection coming from the tool description.
+9. Go to the F5 AI Guardrails logs and observe the logs. You will see that the prompt has been blocked due to the prompt injection coming from the tool description.
 
-18. Because this injection will always happen, we will disable the inspection of the tools definition for now.
+10. Because this injection will always happen, we will disable the inspection of the tools definition for now.
 
-19. Go back to the **Host Config** ⇒ in the **Request extractors** remove the **MCP tools definition** pattern rule ⇒ **Save changes**
+11. Go back to the **Host Config** ⇒ in the **Request extractors** remove the **MCP tools definition** pattern rule ⇒ **Save changes**
 
