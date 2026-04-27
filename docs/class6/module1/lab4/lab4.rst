@@ -17,7 +17,7 @@ Now that we have a basic understanding of how **F5 AI Guardrails** is implemente
 
 3. You should get redirected to the login portal, in case you aren't you can access it through this link :ext_link:`https://www.us2.calypsoai.app/`
 
-   Login with your credetials. The email address needs to look like **youremail+UDF@yourdomain** for example **gogo+UDF@gmail.com**.
+   Login with your credentials. The email address needs to look like **youremail+UDF@yourdomain** for example **gogo+UDF@gmail.com**.
 
 4. When deploying a model inline (not needed for out-of-band) we need to point **F5 AI Guardrails** to a backend inference server.
 
