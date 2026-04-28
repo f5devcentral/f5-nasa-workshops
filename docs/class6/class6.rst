@@ -3,7 +3,7 @@ Class 6 - F5 AI Security
 
 Lab Maintainers:
 
-  Sorin Boiangiu <s.boiangiu@f5.com>   
+  @SATeam  
 
 |
 
