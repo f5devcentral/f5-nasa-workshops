@@ -9,11 +9,11 @@ Our inference resources are low.
 
 **How to run it without running**
 
-1. In the main left tab go to **Reports** ⇒ **Run Attack**
+1. In the main left tab go to **Reports** ⇒ click **Run attack** in the top right corner. A side panel titled **Attack run** will open.
 
 2. In the **Run this campaign** section, you can select the attack campaign we have just created.
 
-3. In the **Connections** we are choosing the inference API or the agent API which is defined when creating the **Connections**. In our case we would choose **genai-azure-openai**.
+3. Under **Against these targets**, in the **Connections** selector, choose the inference API or agent API that has been defined under **Connections**. In our case we would choose **genai-azure-openai**. (You can ignore the new **Schedule an attack run** and **Auto-remediate** options for this lab.)
 
 4. **WE ARE GOING TO STOP HERE AND CLICK CANCEL**
 

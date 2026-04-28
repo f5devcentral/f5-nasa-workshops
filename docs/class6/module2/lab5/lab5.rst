@@ -16,9 +16,9 @@ While still in the **Internal Activity** ⇒ Click on **MCP Run**, you will see 
 Now let's protect our **AI Agent** against this type of attack.
 
 
-1. Go back to the **MCP** project view and add the **PII package** scanners.
+1. Go back to the **MCP** project view and add the **PII package** guardrails.
 
-2. In the PII package enable the **Email address scanner**.
+2. In the PII package enable the **Email address guardrail**.
 
 3. Now let's configure the **Middleware**.
    
