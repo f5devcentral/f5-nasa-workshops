@@ -1,5 +1,5 @@
-F5 Distributed Cloud EMEA Workshop
-##################################
+F5 North America Workshops
+##########################
 
 Welcome
 -------
@@ -8,35 +8,9 @@ Welcome to the |classbold| - |year|
 
 |repoinfo|
 
-This workshop is focused on F5 Distributed Cloud so F5ers, Partners and Customers can understand and learn the F5 XC.
-It covers:
-
-* ``(Class 1)`` F5 XC services
-  
-  * Explored security services include but not limited to: WAF, DDoS, Basic API, Bot Protection
-  * Application exposed on internet and protected by F5 XC Global Network (RE only)
-  * Application not exposed on internet and only available in a private zone (VPC, VNET, internal VLAN ...) and protected by F5 XC Global Network (RE + CE)
-  * Application not exposed on internet and protected by F5 XC instance in a private zone (CE only)
-
-* ``(Class 2)`` F5 XC Multi-Cloud Networking 
-
-  * Routing traffic to multiple CE sites ( Onprem and AWS )
-  * Routing internal traffic from AWS to Onprem
-  * API Security for internal traffic
-
-
-* ``(Class 3)`` Virtual K8S 
-
-* ``(Class 4)`` F5 XC API Protection 
-
-  * Static API Protection
-  * Dynamic API Protection
-  * Advanced Protection
-
-* ``(Class 5)`` F5 XC k8s
+This workshop is focused on F5 AI Security so F5ers, Partners and Customers can understand and learn how to secure AI applications using F5's AI Security platform. It covers:
 
 * ``(Class 6)`` F5 AI Security
-
 
 .. toctree::
    :maxdepth: 2
@@ -44,5 +18,4 @@ It covers:
    :glob:
 
    intro*/intro*
-   class*/class*
-   
+   class6/class6
