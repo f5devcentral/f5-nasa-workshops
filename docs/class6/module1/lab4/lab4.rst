@@ -21,9 +21,9 @@ Now that we have a basic understanding of how **F5 AI Guardrails** is implemente
 
 4. When deploying a model inline (not needed for out-of-band) we need to point **F5 AI Guardrails** to a backend inference server.
 
-   In the main left tab go to **Connections**, observe all the built-in inference endpoints that we can connect to. You can also see the **Openai Compatible** inference which has been preconfigured. 
+   In the main left tab go to **Connections** and make sure you are on the **Models** tab. Under **Available provider connections** observe all the built-in inference providers we can connect to (including **OpenAI Compatible**). Then scroll down to **Model connections** and locate the **Openai Compatible** entry that has been preconfigured.
 
-   Click on **Manage** on the **Openai Compatible** row. Click on the **three dots** on the **genai-azure-openai** row ⇒ **Manage model**.
+   Click **Manage** on the **Openai Compatible** row. Click on the **three dots** on the **genai-azure-openai** row ⇒ **Manage model**.
 
    You can observe the configuration we have created in order to connect to the model on the **Azure OpenAI** inference endpoint.
 
