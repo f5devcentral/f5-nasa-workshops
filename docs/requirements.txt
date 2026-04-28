@@ -1,9 +1,9 @@
 # Pinned requirements for Read the Docs build
-# Avoids pkg_resources removal in setuptools >= 81 and Sphinx 9 incompatibilities
+# Sphinx 5.x line for compatibility with sphinxcontrib.nwdiag/blockdiag
 setuptools<81
 sphinx==5.3.0
 docutils<0.20
-f5_sphinx_theme
+sphinx_rtd_theme>=2.0.0
 recommonmark
 sphinx-copybutton
 sphinxcontrib-blockdiag
