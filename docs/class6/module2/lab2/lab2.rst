@@ -13,7 +13,7 @@ Let's start protecting.
 
 1. First, create a new **Agent** type project in the **F5 AI Guardrails** console and call it **request**. We will use this project to inspect data coming from the user.
 
-2. You can see that all **Prompt Injection** scanners are already enabled.
+2. You can see that all **Prompt Injection** guardrails are already enabled.
 
 3. For the **request** project, create an API token, call it **request**, and save it in your notepad for later.
 
