@@ -8,7 +8,7 @@
 classname = "F5 North America Workshops"
 
 # OPTIONAL: The URL to the GitHub Repository for this class
-github_repo = "https://github.com/f5devcentral/f5xc-emea-workshop"
+github_repo = "https://github.com/f5devcentral/f5-nasa-workshops"
 
 #
 # END CONFIG
