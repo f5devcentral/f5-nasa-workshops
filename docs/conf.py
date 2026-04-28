@@ -21,7 +21,7 @@ import re
 import pkgutil
 import string
 sys.path.insert(0, os.path.abspath('.'))
-import f5_sphinx_theme
+import sphinx_rtd_theme
 import custom_roles
 
 
@@ -172,12 +172,12 @@ todo_include_todos = True
 # a list of builtin themes.
 
 html4_writer = True
-html_theme = 'f5_sphinx_theme'
-html_theme_path = f5_sphinx_theme.get_html_theme_path()
-html_sidebars = {'**': ['searchbox.html', 'localtoc.html', 'globaltoc.html']}
+html_theme = 'sphinx_rtd_theme'
+html_theme_path = sphinx_rtd_theme.get_html_theme_path()
+# html_sidebars omitted; sphinx_rtd_theme provides its own sidebar
 html_theme_options = {
-                        'site_name': 'Community Training Classes & Labs',
-                        'next_prev_link': True
+                        'navigation_depth': 4,
+                        'collapse_navigation': False,    'sticky_navigation': True,
                      }
 html_last_updated_fmt = '%Y-%m-%d %H:%M:%S'
 
@@ -196,14 +196,8 @@ extlinks = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_js_files = [
-    'js/data.js',
-    'js/c1.js',
-    'js/c2.js',
-    'js/c3.js',
-    'js/c5.js',
-    'js/c6.js',
-]# -- Options for HTMLHelp output ------------------------------------------
+
+# -- Options for HTMLHelp output ------------------------------------------
 
 cleanname = re.sub('\W+','',classname)
 
