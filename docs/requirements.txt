@@ -1,0 +1,11 @@
+# Pinned requirements for Read the Docs build
+# Avoids pkg_resources removal in setuptools >= 81 and Sphinx 9 incompatibilities
+setuptools<81
+sphinx==5.3.0
+docutils<0.20
+f5_sphinx_theme
+recommonmark
+sphinx-copybutton
+sphinxcontrib-blockdiag
+sphinxcontrib-nwdiag
+sphinxcontrib-serializinghtml
