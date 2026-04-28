@@ -7,9 +7,9 @@ build:
     python: "3.11"
   jobs:
     pre_install:
-      - pip install --upgrade 'pip<25' 'setuptools<81' wheel
+      - "pip install --upgrade 'pip<25' 'setuptools<81' wheel"
     post_install:
-      - pip install -r docs/requirements.txt
+      - "pip install -r docs/requirements.txt"
 sphinx:
   configuration: docs/conf.py
   fail_on_warning: false
